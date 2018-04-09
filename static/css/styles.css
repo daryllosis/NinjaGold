@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    margin: 20px auto;
+    height: 465px;
+    width: 900px;
+    border: 3px solid black;
+    background-color: gray;
+    padding: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: 188px;
+    height: 188px;
+    border: 2px solid black;
+    margin: 10px 15px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.box h3, .box p, .box form{
+    margin-top: 15px;
+}
+
+h4, form input{
+    display: inline-block;
+}
+
+form input, form button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.goldcount {
+    margin: 10px;
+}
+
+.activityheader {
+    margin: 5px 14px 2px 14px
+}
+
+.activitiesbox {
+    border: 2px solid black;
+    height: 150px;
+    width: 96.5%;
+    margin: 3px 14px;
+    overflow: scroll;
+}
+
+li {
+    color: gold;
+    margin: 2px 5px;
+}
+
+
